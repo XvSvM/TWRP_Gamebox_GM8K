@@ -14,15 +14,16 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from GM8K device
 $(call inherit-product, device/gamebox/GM8K/device.mk)
 
-PRODUCT_DEVICE := GM8K
-PRODUCT_NAME := twrp_GM8K
-PRODUCT_BRAND := gamebox
-PRODUCT_MODEL := MBOX
-PRODUCT_MANUFACTURER := gamebox
+PRODUCT_DEVICE := eros-p1
+PRODUCT_NAME := GameBox
+PRODUCT_BRAND := google
+PRODUCT_MODEL := GameBox
+PRODUCT_MANUFACTURER := Google
 
 PRODUCT_GMS_CLIENTID_BASE := android-gamebox
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="twrp_GM8K-userdebug 10 QP1A.191105.004 eng.cmj.20240417.085715 test-keys"
+    PRIVATE_BUILD_DESC="Allwinner/eros_p1/eros-p1:10/QP1A.191105.004/413:eng/test-keys"
 
-BUILD_FINGERPRINT := gamebox/GM8K/GM8K:10/QP1A.191105.004/5908170:user/release-keys
+BUILD_FINGERPRINT := google/walleye/walleye:10/QP1A.191105.004/5908170:user/release-keys
+
