@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_GM8K.mk
+    $(LOCAL_DIR)/eros-p1.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_GM8K-user \
-    twrp_GM8K-userdebug \
-    twrp_GM8K-eng
+    eros-p1-user \
+    eros-p1-userdebug \
+    eros-p1-eng
