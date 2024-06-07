@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/gamebox/GM8K
+LOCAL_PATH := device/gamebox/eros-p1
