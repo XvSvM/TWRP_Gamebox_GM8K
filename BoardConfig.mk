@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/google/walleye
+DEVICE_PATH := device/google/eros-p1
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -42,8 +42,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := walleye_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/walleye
+TARGET_KERNEL_CONFIG := eros-p1_defconfig
+TARGET_KERNEL_SOURCE := kernel/google/eros-p1
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
