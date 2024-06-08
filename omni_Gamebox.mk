@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from eros-p1 device
-$(call inherit-product, device/google/eros-p1/device.mk)
+$(call inherit-product, device/google/Gamebox/device.mk)
 
 PRODUCT_DEVICE := eros-p1
 PRODUCT_NAME := omni_GameBox
