@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/Gamebox.mk
+    $(LOCAL_DIR)/twrp_Gamebox.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_Gamebox-user \
