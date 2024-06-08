@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/gamebox/GM8K
+DEVICE_PATH := device/google/Gamebox
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
