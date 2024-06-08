@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Gamebox.mk
+    $(LOCAL_DIR)/twrp_Gamebox.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Gamebox-user \
-    omni_Gamebox-userdebug \
-    omni_Gamebox-eng
+    twrp_GameboxGamebox-user \
+    twrp_GameboxGamebox-userdebug \
+    twrp_GameboxGamebox-eng
