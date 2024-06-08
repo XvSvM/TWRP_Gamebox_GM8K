@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/eros-p1.mk
 
 COMMON_LUNCH_CHOICES := \
-    eros-p1-user \
-    eros-p1-userdebug \
-    eros-p1-eng
+    omni_eros_p1-user \
+    omni_eros_p1-userdebug \
+    omni_eros_p1-eng
