@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from GM8K device
+# Inherit from eros-p1 device
 $(call inherit-product, device/google/eros-p1/device.mk)
 
 PRODUCT_DEVICE := eros-p1
