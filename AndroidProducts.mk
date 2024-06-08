@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/eros-p1.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_eros_p1-user \
-    omni_eros_p1-userdebug \
-    omni_eros_p1-eng
+    omni_Gamebox-user \
+    omni_Gamebox-userdebug \
+    omni_Gamebox-eng
