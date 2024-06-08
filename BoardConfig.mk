@@ -69,6 +69,7 @@ TW_THEME := portrait_hdpi
 
 
 # TWRP Configuration
+TW_OEM_BUILD := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_TWRPAPP := true
 TW_EXCLUDE_SUPERSU := true
