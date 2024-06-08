@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/eros-p1.mk
+    $(LOCAL_DIR)/omni_Gamebox.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_Gamebox-user \
