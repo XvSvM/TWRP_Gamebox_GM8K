@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=Gamebox
+DEVICE=eros-p1
 VENDOR=google
 
 # Load extract_utils and do some sanity checks
