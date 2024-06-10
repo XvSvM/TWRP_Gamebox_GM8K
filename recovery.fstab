@@ -3,6 +3,7 @@
 /product        ext4     product                                           flags=display=product;logical
 /data           f2fs     /dev/block/by-name/UDISK                          flags=display=data
 /cache          ext4     /dev/block/by-name/cache                          flags=display=cache
+/Reserve0       vfat     /dev/block/by-name/Reserve0                       flags=display=Reserve0
 /metadata       ext4     /dev/block/by-name/metadata                       flags=display=metadata
 /boot           emmc     /dev/block/by-name/boot                           flags=display=boot
 /recovery       emmc     /dev/block/by-name/recovery                       flags=display=recovery
