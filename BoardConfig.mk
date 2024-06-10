@@ -28,12 +28,12 @@ TARGET_BOOTLOADER_BOARD_NAME := exdroid
 TARGET_NO_BOOTLOADER := true
 
 # Display
-TARGET_SCREEN_DENSITY := 213
+TARGET_SCREEN_DENSITY := 160
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x40078000
-BOARD_KERNEL_CMDLINE := firmware_class.path=/vendor/etc/firmware firmware_class.path=/vendor/etc/firmware selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=userdebug
+BOARD_KERNEL_CMDLINE := firmware_class.path=/vendor/etc/firmware selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=userdebug
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x02f88000
 BOARD_KERNEL_TAGS_OFFSET := 0xfff88100
